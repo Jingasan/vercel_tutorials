@@ -6,7 +6,7 @@ import {
   updateTodoAction,
   deleteTodoAction,
 } from "@/app/actions";
-import { useEffect, useState, useRef, MouseEvent, FormEvent } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function Home() {
   const [todoList, setTodoList] = useState<Todo[]>([]);
